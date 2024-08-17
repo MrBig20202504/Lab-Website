@@ -1,0 +1,40 @@
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.loginbtn {
+  background-color: #04AA6D;
+  float: left;
+  width: 100%;
+  padding: 14px 20px;
+}
+
+.cancelbtn {
+  background-color: #f44336;
+  float: left;
+  width: 100%;
+  padding: 14px 20px;
+}
+
+  span.psw {
+    display: block;
+    float: none;
+  }
+

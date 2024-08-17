@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.inputArea input[type="text"] {
+  background-color: white;
+  border: 1px solid black;
+  height: 30px;
+  border-radius: 5px;
+
+}
+
+.return {
+  background-color: #2B3035;
+  border: 1px solid black;
+  height: 60px;
+  border-radius: 5px;
+
+}
+
+/* .submit {
+  background-color: #2B3035;
+  color: white;
+  padding: 20px;
+  font-size: x-large;
+  font-weight: bold;
+  border-radius: 25px;
+} */
+
+.test {
+  text-decoration: none;
+  color: black;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-image: url('/public/images/slider-img2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products {
+  background-image: url('/public/images/slider-img2.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url('/public/images/slider-img2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.split-screen {
+  background-color: #f0f0f0;
+  display: flex;
+  height: 100%;
+}
+
+.left {
+  flex: 1;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+.left img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-background {
+  background-image: url('https://th.bing.com/th/id/OIG3.WfSiQOvn00taGpKXbR2n?w=1024&h=1024&rs=1&pid=ImgDetMain');
+  width: 100%;
+  height: auto;
+  display: relative;
+
+}
+
+.form-container {
+  display: absolute;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.result {
+  border: 1px solid #4dde36;
+  color: #285a20;
+  padding: 50px;
+  font-weight: 900;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  padding: 20px;
+}
